@@ -3,6 +3,8 @@
 ## Directory Layout
 In the base Directory should be your Kicad project files and a directory called "renders" which contains the output files from your project. If you want to also version control your firmware (which you probably should) you can have a folder called "software" or "firmware" to manage code.  You must also add the gitignore from this repo.  
 
+Your repo should be well maintained and updated regularly.  I should not just see a single commit titled "done".  You should be making frequent commits as you make changes to the status of your project.  You should also regularly push.  
+
 ## Submissions
 Submissions should be in the form of GitHub Releases.  When a deadline comes around whatever the latest release on your repo is will be taken as your submission.  You should not email me submissions, email submissions will not be graded.  
 
@@ -46,7 +48,7 @@ Then going to Edit -> Text and Graphics properties and settings the following se
 
 ![silkFix](/readmeImg/silkFix.png)
 
-Additioanly it can be usefull to have the help of the interactive router.  This is entirely up to personal preference, my preferred settings are shown below.  This dialog is accessible via the Route -> Interactive Router Settings menu.
+Additionally it can be useful to have the help of the interactive router.  This is entirely up to personal preference, my preferred settings are shown below.  This dialog is accessible via the Route -> Interactive Router Settings menu.
 
 ![routerSettings](/readmeImg/routeSettings.png)
 
@@ -65,7 +67,7 @@ DRC must be run on your board prior to submitting.  Any unapproved DRC errors wi
 
 ![board](/readmeImg/renderedBoard.png)
 
-**Boards must have Fiducials for automated assembly.** Submissions that do not have 1mm fiducials in the bottom left (FID1), Top Right (FID2), and Top Left (FID3) will be rejected. Note the ordering of the three fiducials is important for automated assembly. The area around Fiducials should be clear of components that may interfere with automatic recognition (i.e. mounting holes, pin headers etc.) for at least 3mm from any edge of the copper center.  
+**Boards must have Fiducials for automated assembly.** Submissions that do not have 1mm fiducials in the bottom left (FID1), Top Right (FID2), and Top Left (FID3) will be rejected. Note the ordering of the three fiducials is important for automated assembly. The area around fiducials should be clear of components that may interfere with automatic recognition (i.e. mounting holes, pin headers etc.) for at least 3mm from any edge of the copper center.  
 
 Boards will be submitted in a folder containing gerber files produced with the provided CAM files.  To Load the CAM file open the CAM Processor and click the LOAD button.  The output of the CAM processor should be set to the renders folder.  
 
