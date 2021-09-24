@@ -1,9 +1,27 @@
 # ECE 388 Board Submission Standards
 
 ## Directory Layout
-In the base Directory should be your Kicad project files and a directory called "renders" which contains the output files from your project. If you want to also version control your firmware (which you probably should) you can have a folder called "firmware" to manage code.  You must also have the gitignore from that came with your repo.  
+In the base Directory should be your Kicad project files and a directory called "renders" which contains the output files from your project. If you want to also version control your firmware (which you probably should) you can have a folder called "firmware" to manage code.  You must also have the gitignore that came with your repo.  
 
-Your repo should be well maintained and updated regularly.  I should not just see a single commit titled "done".  You should be making frequent commits as you make changes to the status of your project.  You should also regularly push.  
+Your repo should be well maintained and updated regularly.  I should not just see a single commit titled "done".  You should be making frequent commits as you make changes to the status of your project.  You should also regularly push.
+
+## README
+The readme for your project should contain your project title, an overview of your project and any additionally relevant information. Images may go into the readmeimg folder. You must have the DRC badge present below your project title for submissions to be graded.
+
+## Automated ERC and DRC Checks
+You're repository has been configured to automatically run an ERC and DRC every time you push. Both of the ERC and DRC need to pass for a submission to be accepted. This will be signified by a green passing badge in the readme.
+
+
+## Kicad Library
+The whole class will share a kicad library on github. The repo can be found [HERE](https://github.com/UmassD-ECE388/388Lib). You should fork this repo (information about forks [HERE](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks)), clone your fork onto your local machine and add both the symbol and footprints libraries to your library manager in Kicad.
+
+From your project view select Preferences->Manage Symbol Libraries then click the add existing library button and navigate to where you cloned your fork of 388Lib to. Repete these steps for Preferences->Manage Footprint Libraries
+
+ Any symbols or footprints needed for your project need to be added to your local fork of the repo and shared with the class by submitting a pull request to the upstream repo. You are responsible for learning how to do this. There is plenty of documentation online (including some linked in this readme) about how to do this.
+
+**ALL symbols and footprints used in your project need to be in the 388Lib repo before grading**
+
+
 
 ## Submissions
 Submissions should be in the form of GitHub Releases.  When a deadline comes around whatever the latest release on your repo is will be taken as your submission.  You should not email me submissions, email submissions will not be graded.  Each submission must have a unique tag number starting X.00 where X is the number assoicated with the submission. When asked to resubmit you should increment the minor version number of the tag. EX if you just submitted with a tag of v1.00 the first resubmission should be tagged v1.01, the 10th resubmission would be v1.10. The hundredth submission should be taken as a sign that it's time revaluate some things.
@@ -26,7 +44,7 @@ We will be using [LCSC](https://lcsc.com) as out preferred supplier.  As such, a
 
 ![bom](/readmeImg/bom.png)
 
-After Kicad generates a BOM file you need to open it in a CSV editor of your choice, excel, open office, atom if your a cool kid, vscode if you're a nerd, and patch in the additional data needed to submit.  This includes price breakdowns, LCSC part numbers and links.  An example is provided in this repository.  If a part is not available from LCSC and you have discussed this with me you can enter data into the DigiKey fields, otherwise they are unnecessary.  Note price breakdowns are for the cost of 1 part at the listed quantity, not the extended price.  
+After Kicad generates a BOM file you need to open it in a CSV editor of your choice, excel, open office, atom if you're a cool kid, vscode if you're a nerd, and patch in the additional data needed to submit.  This includes price breakdowns, LCSC part numbers and links.  An example is provided in this repository.  If a part is not available from LCSC and you have discussed this with me you can enter data into the DigiKey fields, otherwise they are unnecessary.  Note price breakdowns are for the cost of 1 part at the listed quantity, not the extended price.  
 
 **BOMs That do not meet the format specification will be rejected** This means they must have all of the correct columns, in the correct order, with correct data in them, and be in **CSV** format.  
 
@@ -78,6 +96,6 @@ In order to get a board assembled through the automated assembly process you mus
 
 ## Feedback
 
-Feedback will be provided via Github Issues.  Changes that need to be made will be listed as a series of checkboxes on an issue.  These boxes should be checked off as they are completed.  You should have all of the boxes check before closing the issue to notify me that your submission needs to be revaluated.  Any discussion about should be done on the issue page.  
+Feedback will be provided via Github Issues.  Changes that need to be made will be listed as a series of checkboxes on an issue.  These boxes should be checked off as they are completed.  You should have all of the boxes check before closing the issue to notify me that your submission needs to be revaluated.  Any discussion about should be done on the issue page.
 
 **I can not recommend strongly enough that you have everything in as early as possible.  Your designs will likely get rejected the first time and you need time to be able to get a manufacturable board in before the deadline to order.**
