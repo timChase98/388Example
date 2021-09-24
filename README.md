@@ -15,6 +15,8 @@ You're repository has been configured to automatically run an ERC and DRC every 
 ## Kicad Library
 The whole class will share a kicad library on github. The repo can be found [HERE](https://github.com/UmassD-ECE388/388Lib). You should fork this repo (information about forks [HERE](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks)), clone your fork onto your local machine and add both the symbol and footprints libraries to your library manager in Kicad.
 
+![kicadLibMang](readmeImg/KicadLibManager.png)
+
 From your project view select Preferences->Manage Symbol Libraries then click the add existing library button and navigate to where you cloned your fork of 388Lib to. Repete these steps for Preferences->Manage Footprint Libraries
 
  Any symbols or footprints needed for your project need to be added to your local fork of the repo and shared with the class by submitting a pull request to the upstream repo. You are responsible for learning how to do this. There is plenty of documentation online (including some linked in this readme) about how to do this.
