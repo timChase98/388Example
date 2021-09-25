@@ -98,6 +98,6 @@ In order to get a board assembled through the automated assembly process you mus
 
 ## Feedback
 
-Feedback will be provided via Github Issues.  Changes that need to be made will be listed as a series of checkboxes on an issue.  These boxes should be checked off as they are completed.  You should have all of the boxes check before closing the issue to notify me that your submission needs to be reevaluated.  Any discussion about should be done on the issue page.
+Feedback will be provided via Github Issues.  Changes that need to be made will be listed as a series of checkboxes on an issue.  These boxes should be checked off as they are completed.  You should have all of the boxes check before closing the issue to notify me that your submission needs to be reevaluated.  Any discussion about submissions should be done on the issue page.
 
 **I can not recommend strongly enough that you have everything in as early as possible.  Your designs will likely get rejected the first time and you need time to be able to get a manufacturable board in before the deadline to order.**
