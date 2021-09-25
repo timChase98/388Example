@@ -90,7 +90,7 @@ Boards will be submitted in the form of gerber files located in the renders/gerb
 
 Directions to generate Gerber Files can be found [HERE](https://support.jlcpcb.com/article/149-how-to-generate-gerber-and-drill-files-in-kicad)
 
-**You must generate both gerber and drill files to get your board manufactured **
+**You must generate both gerber and drill files to get your board manufactured**
 
 ## Board Population
 
