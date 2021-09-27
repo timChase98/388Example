@@ -101,3 +101,17 @@ In order to get a board assembled through the automated assembly process you mus
 Feedback will be provided via Github Issues.  Changes that need to be made will be listed as a series of checkboxes on an issue.  These boxes should be checked off as they are completed.  You should have all of the boxes check before closing the issue to notify me that your submission needs to be reevaluated.  Any discussion about submissions should be done on the issue page.
 
 **I can not recommend strongly enough that you have everything in as early as possible.  Your designs will likely get rejected the first time and you need time to be able to get a manufacturable board in before the deadline to order.**
+
+## Relevant Links
+
+[388Lib](https://github.com/UmassD-ECE388/388Lib)
+
+[Stock Sheet](https://docs.google.com/spreadsheets/d/1WtOakf2sV2Z24B9SvWYXxpJuLNhJUgvYpcEkdbbXuQU/)
+
+[PCB House](https://jlcpcb.com/)
+
+[Component Supplier](https://lcsc.com/)
+
+[NXP I2C Level Shifter](https://www.nxp.com/docs/en/application-note/AN10441.pdf)
+
+[TI Reverse Voltage Protection](https://www.ti.com/lit/an/slva139/slva139.pdf?ts=1632762332598&ref_url=https%253A%252F%252Fwww.google.com%252F)
