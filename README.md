@@ -72,7 +72,7 @@ Additionally it can be useful to have the help of the interactive router.  This 
 
 Periodically while laying out your board you should run a DRC to verify there are no manufacturing issues. It is sometimes ok to wave DRC errors as Approved.  If there is an error that you believe should be waved discuss this with Dr. Viall or myself before continuing.
 
-To verify you read this put a text file in the Renders folder titled "verification.txt" that contains the line "No Green M&M's were harmed in the production of this board" and nothing else.  
+To verify you read this put a text file in the Renders folder titled "verification.txt" that contains the line "No Green M&M's were harmed in the production of this board" and nothing else.  Do not discuss this with requirement with other groups. 
 
 ## Board Submission
 You will create a release called "Gerber Submission" with an initial tag of v3.00
