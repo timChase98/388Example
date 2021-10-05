@@ -1,0 +1,5 @@
+Reference, Quantity, Value, Footprint,LCSC Part Number,LCSC Price (1),LCSC Price (10),LCSC Price (100),LCSC Reel Qty,LSCS Reel Price,LCSC Link,Alt Supplier Link,Alt Supplier Price (1)
+C1 C2,2,18pF,Capacitor_SMD:C_0805_2012Metric,C237185,X,X,$0.0070,4000,$19.20,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Walsin-Tech-Corp-0805N180J500CT_C237185.html,,
+C3 C5 C6 C9,4,100nF,Capacitor_SMD:C_0805_2012Metric,C282732,X,X,$0.0045,4000,$12.80,https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html,,
+D1,1,LED,LED_SMD:LED_0805_2012Metric,C72035,X,X,$0.0266,3000,$51.90,https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0805-Blue-light_C72035.html,,
+F1,1,500mA,Fuse:Fuse_0805_2012Metric_Castellated,C269102,X,X,$0.0260,4000,$69.20,https://lcsc.com/product-detail/Resettable-Fuses_Brightking-Elec-TAIWAN-SMD0805B020TF_C269102.html,,
