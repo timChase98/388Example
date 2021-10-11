@@ -104,6 +104,8 @@ Feedback will be provided via Github Issues.  Changes that need to be made will 
 
 ## Relevant Links
 
+[Layout Video](https://www.youtube.com/watch?v=Pfe_roicJkg)
+
 [388Lib](https://github.com/UmassD-ECE388/388Lib)
 
 [Stock Sheet](https://docs.google.com/spreadsheets/d/1WtOakf2sV2Z24B9SvWYXxpJuLNhJUgvYpcEkdbbXuQU/)
