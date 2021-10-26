@@ -114,6 +114,6 @@ Feedback will be provided via Github Issues.  Changes that need to be made will 
 
 [Component Supplier](https://lcsc.com/)
 
-[NXP I2C Level Shifter](https://www.nxp.com/docs/en/application-note/AN10441.pdf)
+[NXP I2C Level Shifter](https://cdn-shop.adafruit.com/datasheets/an97055.pdf)
 
 [TI Reverse Voltage Protection](https://www.ti.com/lit/an/slva139/slva139.pdf?ts=1632762332598&ref_url=https%253A%252F%252Fwww.google.com%252F)
