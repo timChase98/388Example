@@ -116,6 +116,8 @@ Feedback will be provided via Github Issues.  Changes that need to be made will 
 
 [AVR Hardware Implementation](http://ww1.microchip.com/downloads/en/AppNotes/AN2519-AVR-Microcontroller-Hardware-Design-Considerations-00002519B.pdf)
 
+[AVR I2C](https://www.microchip.com/en-us/application-notes/an2480)
+
 [NXP I2C Level Shifter](https://cdn-shop.adafruit.com/datasheets/an97055.pdf)
 
 [TI Reverse Voltage Protection](https://www.ti.com/lit/an/slva139/slva139.pdf?ts=1632762332598&ref_url=https%253A%252F%252Fwww.google.com%252F)
